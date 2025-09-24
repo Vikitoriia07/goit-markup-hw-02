@@ -1,7 +1,7 @@
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Raleway", sans-serif; */
 body{
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;  
 }
@@ -16,10 +16,11 @@ a {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+
 }
 .header-logo .logo-part{
     color: #2e2f42;
@@ -46,4 +47,31 @@ color: #434455;
 .address-link:hover,
 .address-link:focus{
     color: #404bbf;
+}
+
+.hero{
+    background-color: #2e2f42;
+}
+.hero-image{
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07143;
+letter-spacing: 0.02em;
+text-align: center;
+color: #fff;
+}
+.hero-button{
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background: #4d5ae5;
+cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus{
+     background-color: #404BBF
 }
